@@ -1,0 +1,76 @@
+@import "general.less";
+
+/* App-related classes */
+
+.transcript {
+	@lineHeight: 140%;
+
+	max-width: 800px;
+	/*padding-top: 15px;*/
+	margin: 0px 100px;
+	font-family: Times;
+	/*font-size: 20px;  This is getting set elsewhere, programmatically */
+	line-height: @lineHeight;
+	white-space: pre-line;
+	
+	.p {
+		margin-top: 22px;
+	}
+		
+	span {
+		.transition(all 0.07s ease-out); 
+	}
+
+	.comment {
+		color: #999;
+		text-shadow: 0.5px 0.5px 0.5px #CCC;
+		
+		.highlightMouseover {
+			text-shadow: 0 0 0 #EEF;
+			background-color: transparent;
+			color: #66A;
+		}
+		.highlightPlaying {
+			text-shadow: 0 0 0 #FF9;
+			box-shadow: 0 0 0 transparent;
+			background-color: transparent;
+			color: #AA1;
+		}
+	}
+
+	.title {
+		font-weight: bold;
+		font-size: 120%;
+		text-align: center;
+	}
+
+	.highlight {
+		//padding: 0.1em 0.1em;
+		//margin: -0.1em -0.1em;
+		.border-radius(0.2em);
+	}
+	
+	.highlightMouseover {
+		.highlight;
+		background-color: #EEF;
+	}
+	
+	.highlightPlaying {
+		.highlight;
+		text-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+		box-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.07);
+		background-color: #FF9;
+	}
+		
+	/* Override Bootstrap's table styles */
+	.table {
+		font-size:    100%;
+		table-layout: fixed;
+		
+		td {
+			border-top: 0px;
+			padding: 1px;
+			line-height: @lineHeight;
+		}
+	}
+}

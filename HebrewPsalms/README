@@ -1,0 +1,13 @@
+To build coffeescript:
+    coffee -cw .
+    
+To run local webserver:
+    ruby -run -e httpd . -p 8000
+    or in python (has errors sometimes): python -m SimpleHTTPServer
+
+
+I'm doing experiments with code: running player.html in browser: http://localhost:8000/player.html
+And it actually works!
+ - Interactive transcript: audio and highlighting/navigation
+ - Popup dictionary!
+ 

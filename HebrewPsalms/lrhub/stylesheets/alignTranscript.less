@@ -1,0 +1,89 @@
+@import "general.less";
+
+.waveform {
+	overflow: auto;
+	position: relative;
+	width: 100%;
+	
+	.positionMarker {
+		.transition(all 0.1s);
+		position: absolute;
+		height: 100%;
+		width: 1px;
+		top: 0;
+		background-color: red;
+		.box-shadow(0 0 8px red);
+		opacity: 1;
+	}
+	.syncMarker {
+		position: absolute;
+		height: 100%;
+		width: 0px;
+		top: 0;
+		/*background-color: blue;*/
+		/*.box-shadow(0 0 8px red);*/
+		opacity: 0.8;
+		border-left: 1px dashed #999;
+	}
+	/* highlight the range of the currently selected sync */
+	.selectedSync {
+		position: absolute;
+		height: 100%;
+		top: 0;
+		background-color: #FF9;
+	}
+}
+
+#transcript {
+	/* override Bootstrap's default button size */
+	button {
+		padding: 3px 7px 3px; 
+	}
+	table {
+		border-spacing: 0px;
+		tr {
+			td {
+				padding: 0px;
+				vertical-align: top;
+
+				&.timing {
+					padding: 0px 4px;
+					color: #888;
+					background: #F5F5F5;
+					min-width: 3em;
+					text-align: right;
+				}
+				
+				&.annotation {
+				}
+				
+				textarea {
+					.remove-textarea-glow;
+					overflow: auto;
+					resize: none;
+					margin: 0px;
+					margin-bottom: 2px;
+					border: 0px;
+					font-size: 20px;
+					
+					&.title {
+						font-weight: bold;
+						text-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+					}
+				}
+			}
+			
+			/* highlighted row */
+			&.selected {
+				td.timing {
+					/*color: black;*/
+				}
+				textarea {
+					background: #FF9;
+				}
+			}
+			
+		}
+	}
+}
+

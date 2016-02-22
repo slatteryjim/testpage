@@ -1,0 +1,25 @@
+/* Cross-browser helpers */
+.transition(@args) {
+	-webkit-transition: @args;  /* Saf3.2+, Chrome */
+       -moz-transition: @args;  /* FF4+ */
+        -ms-transition: @args;  /* IE10? */
+         -o-transition: @args;  /* Opera 10.5+ */
+            transition: @args; 	
+}
+
+.border-radius (@radius) {
+	-webkit-border-radius: @radius;
+	   -moz-border-radius: @radius;
+	        border-radius: @radius;
+}
+
+.box-shadow (@args) {
+	-webkit-box-shadow: @args;
+	   -moz-box-shadow: @args;
+	        box-shadow: @args;
+}
+
+.remove-textarea-glow {
+	outline: none;
+	-moz-appearance: none;
+}

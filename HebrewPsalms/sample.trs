@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Trans SYSTEM "trans-14.dtd">
+<Trans scribe="Allen_2" audio_filename="Vietnamese Sample" version="2" version_date="130106">
+<Speakers>
+<Speaker id="spk1" name="Glossary" check="no" dialect="native" accent="" scope="local"/>
+</Speakers>
+<Episode>
+<Section type="report" startTime="0" endTime="71.680">
+<Turn startTime="0" endTime="69.864">
+<Sync time="0"/>
+Trong thập niên vừa qua, 
+<Sync time="3.77"/>
+khi thế giới nghệ thuật đương đại 
+<Sync time="5.683"/>
+đã phát triển đến quy mô hành tinh 
+<Sync time="8.032"/>
+- với nhiều phòng triển lãm, hội chợ, 
+<Sync time="10.826"/>
+nhiều trang web chào bán tác phẩm mỹ thuật hơn, 
+<Sync time="14.744"/>
+các viện bảo tàng lớn hơn, 
+<Sync time="17.092"/>
+các sự kiện trước đây thường chỉ diễn ra hai năm một lần thì hiện nay gần như diễn ra hàng tháng - 
+<Sync time="23.939"/>
+có lúc dường như 
+<Sync time="25.683"/>
+một lớp nhân vật văn hóa mới 
+<Sync time="27.597"/>
+đã được sinh ra 
+<Sync time="29.187"/>
+đó là giới phụ trách triển lãm quốc tế, 
+<Sync time="32.21"/>
+luôn như con thoi ráo riết đến nơi nào. 
+<Sync time="35.865"/>
+Hiện tượng này 
+<Sync time="37.591"/>
+không phải là 
+<Sync time="38.446"/>
+hoàn toàn mới. 
+<Sync time="39.753"/>
+Những người phụ trách triển lãm quốc tế châu Âu lang bạc 
+<Sync time="43.542"/>
+như Harald Szeemann và Germano Celant 
+<Sync time="48.962"/>
+đã thiết lập những quy định này 
+<Sync time="51.177"/>
+vào thập niên 1960. 
+<Sync time="53.878"/>
+Nhưng sự biến hình của thế giới nghệ thuật 
+<Sync time="57.159"/>
+cũng đã chuyển đổi lĩnh vực quản lý; 
+<Sync time="59.955"/>
+và tuần này 
+<Sync time="61.37"/>
+bạn không cần phải đi đâu xa hơn 
+<Sync time="63.338"/>
+một vài nơi ở Manhattan 
+<Sync time="65.331"/>
+để cảm nhận sự tỏa rộng của cơn lũ quét toàn cầu này. 
+</Turn>
+<Turn speaker="spk1" startTime="69.864" endTime="71.680">
+<Sync time="69.864"/>
+thập niên = decade
+trong = in, within
+thập = 10
+niên = years
+do re mi = fa so la
+</Turn>
+</Section>
+</Episode>
+</Trans>
