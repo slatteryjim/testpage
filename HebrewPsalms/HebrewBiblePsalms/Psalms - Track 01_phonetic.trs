@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Trans SYSTEM "trans-13.dtd">
+<Trans scribe="JimHome" audio_filename="Psalms - Track 01" version="1" version_date="160224">
+<Speakers>
+<Speaker id="spk1" name="&lt;p>" check="no" dialect="native" accent="" scope="local"/>
+</Speakers>
+<Episode>
+<Section type="report" startTime="0" endTime="85.4204101562">
+<Turn startTime="0" endTime="8.525">
+<Sync time="0"/>
+?
+<Sync time="6.526"/>
+?
+</Turn>
+<Turn speaker="spk1" startTime="8.525" endTime="27.545">
+<Sync time="8.525"/>
+1:1 ash'rëy-häiysh ásher lo hälakh' 
+<Sync time="16.539"/>
+Baátzat r'shäiym ûv'derekh' cha‡äiym lo ämäd 
+<Sync time="23.538"/>
+ûv'môshav lëtziym lo yäshäv
+</Turn>
+<Turn speaker="spk1" startTime="27.545" endTime="37.37">
+<Sync time="27.545"/>
+1:2 Kiy im B'tôrat y'hwäh chef'tzô 
+<Sync time="32.031"/>
+ûv'tôrätô yeh'Geh yômäm wäläy'läh
+</Turn>
+<Turn speaker="spk1" startTime="37.37" endTime="57.411">
+<Sync time="37.37"/>
+1:3 w'häyäh 
+<Sync time="39.049"/>
+K'ëtz shätûl al-Pal'gëy mäyim 
+<Sync time="45.167"/>
+ásher Pir'yô yiTën B'iTô 
+<Sync time="50.526"/>
+w'älëhû lo-yiBôl 
+<Sync time="52.975"/>
+w'khol ásher-yaáseh yatz'liyªch
+</Turn>
+<Turn speaker="spk1" startTime="57.411" endTime="65.317">
+<Sync time="57.411"/>
+1:4 lo-khën här'shäiym 
+<Sync time="59.758"/>
+Kiy im-KaMotz ásher-TiD'feNû rûªch
+</Turn>
+<Turn speaker="spk1" startTime="65.317" endTime="76.029">
+<Sync time="65.317"/>
+1:5 al-Kën lo-yäqumû r'shäiym BaMish'Pä† 
+<Sync time="71.335"/>
+w'cha‡äiym Baádat tzaDiyqiym
+</Turn>
+<Turn speaker="spk1" startTime="76.029" endTime="85.4204101562">
+<Sync time="76.029"/>
+1:6 Kiy-yôdëª y'hwäh Derekh' tzaDiyqiym 
+<Sync time="80.364"/>
+w'derekh' r'shäiym Tovëd
+</Turn>
+</Section>
+</Episode>
+</Trans>
